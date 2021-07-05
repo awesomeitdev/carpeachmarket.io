@@ -16,7 +16,7 @@ font-family:AppleSDGothicNeoM00;}
 
 .tit{width:50%;margin:0 auto;}
 .background{text-align: right;width:100%;}
-.background img{width:360px;height:400px;background-size: cover;position:relative; z-index:1;text-align:right;margin-right:60px;padding-bottom:25px;}
+.background img{width:360px;height:400px;background-size: cover;position:relative; z-index:5;text-align:right;margin-right:60px;padding-bottom:25px;}
 .background .tit{margin:0 auto;}
 .tit text{font-size:18px;font-weight: 400;color:#646464;position:absolute;margin-top:-350px;text-align: center;}
 .tit h3{font-size:28px;font-weight: 600;color:black;margin:0 auto;}
@@ -35,7 +35,8 @@ margin-top:-240px;}
 
 .video p{color:#FF6326;font-size:20px;font-weight: 800;border-bottom:2px solid #FF6326;text-align:center;width: 155px;font-family: AppleSDGothicNeoM00;
 margin:0 auto;
-margin-top:20px}
+margin-top:20px;
+z-index: 1}
 
 
 .video p img{width:20px;height:20px;margin-right: 5px;}
@@ -335,9 +336,11 @@ font-weight: 800;}
 .box3{
     width: 100%;
     margin: 10px auto;
+	height: 60vh;
 	margin:0 auto;
 	padding-top:20px;
 	background-color:white;
+	padding-bottom:200px; 
 }
 
 
@@ -346,7 +349,7 @@ font-weight: 800;}
 	background-color:white;margin:0 auto
 }
 
-.top_seven img{width:100%;}
+.top_seven img{width:100%;padding-bottom: 00px}
 
 
 
@@ -354,5 +357,276 @@ font-weight: 800;}
 .seven h5{font-size:24px;font-weight:800; display: inline;
 margin-left:5px;font-family:AppleSDGothicNeoM00; 
 	vertical-align: center;}
+
+
+
+.mycar{width:100%;height:70vh;margin:0 auto;background-color:#fcfcfc;margin-top:300px;}
+.mycar_main{width:50%;margin:0 auto;}
+
+.mycar .mycar_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.mycar .mycar_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.mycar_image img{width:100%;height:60%;margin:60px auto;}
+
+
+
+.box4{
+    width: 100%;
+    margin:0 auto;
+	height: 70vh;
+	margin-top:500px;
+	background-color:#f2f2f2 #000000;
+}
+
+
+
+.mycar_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.mycar_seven img{width:100%;
+	height: 60vh;padding-top:100px;
+}
+
+
+
+.mycar_seven ul{font-size: 20px;padding-top:20px;margin-left:-10px;}
+.mycar_seven h5{font-size:24px;font-weight:800; display: inline;
+margin-left:5px;font-family:AppleSDGothicNeoM00; 
+	vertical-align: center;}
+
+
+
+
+.mygas{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.mygas_main{width:50%;margin:0 auto;}
+
+.mygas .mygas_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.mygas .mygas_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.mygas_image img{width:100%;height: 90%;margin:60px auto;}
+
+
+
+.box5{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	background-color:#f2f2f2 #000000;
+}
+
+
+
+.mygas_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.mygas_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+
+
+
+
+.myweather_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myweather_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+
+.myweather{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.myweather_main{width:50%;margin:0 auto;}
+
+.myweather .myweather_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.myweather .myweather_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.myweather_image img{width:100%;height: 90%;margin:60px auto;}
+
+
+
+
+.box6{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	background-color:#fcfcfc;
+	height: 70vh
+}
+
+
+
+.myride_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myride_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+
+.myride{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.myride_main{width:50%;margin:0 auto;}
+
+.myride .myride_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.myride .myride_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.myride_image img{width:100%;height: 90%;margin:60px auto;}
+
+
+
+.box7{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	background-color:white;
+}
+
+
+
+.myfilter_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myfilter_seven img{width:100%;
+	height: 61vh;padding-top:80px;
+}
+
+
+.myfilter{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.myfilter_main{width:50%;margin:0 auto;}
+
+.myfilter .myfilter_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.myfilter .myfilter_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.myfilter_image img{width:100%;height: 90%;margin:60px auto;}
+
+
+
+.box8{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	height:70vh;
+	background-color:#fcfcfc;
+}
+
+
+
+.myfilter_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myfilter_seven img{width:100%;
+	height: 50vh;padding-top:80px;
+}
+
+
+
+
+.myaccident_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myaccident_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+
+.myaccident{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.myaccident_main{width:50%;margin:0 auto;}
+
+.myaccident .myaccident_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.myaccident .myaccident_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.myaccident_image img{width:100%;height:90%;margin:60px auto;}
+
+
+
+.box9{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	background-color:white;
+}
+
+
+
+.myhome_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myhome_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+
+
+.myhome_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myhome_seven img{width:100%;
+	height: 50vh;padding-top:80px;
+}
+
+
+.myhome{width:100%;height:70vh;margin:0 auto;background-color:white;}
+.myhome_main{width:50%;margin:0 auto;}
+
+.myhome .myhome_title{font-size:18px;text-align: center;color:#646464;font-weight: 400}
+
+.myhome .myhome_title h3{font-size:28px;padding-top:80px;margin-bottom: 10px;color:black;
+font-weight: 800;}
+
+.myhome_image img{width:100%;height:90%;margin:60px auto;}
+
+
+
+.box10{
+    width: 100%;
+    margin:0 auto;
+	margin-top:100px;
+	background-color:#fcfcfc;
+	height: 70vh
+}
+
+
+
+
+.myhome_seven{width:50%;height: 60vh;
+	margin:0 auto
+}
+
+.myhome_seven img{width:100%;
+	height: 60vh;padding-top:80px;
+}
+
+.bbutton{width:100%;height:40vh;margin:0 auto;background-color:white}
+.bbutton .bt{width:50%;margin:0 auto;margin-top:40px;}
+.bbutton .bt img{width:60%;height:120px;text-align: center;margin-left:20%;margin-top:180px;}
+
+
+.footer .text {margin-left:240px;margin-top:-50px;color:black;}
+.footer img{width:30%;margin-top:80px;}
+.footer{width:100%;height: 40vh;background-color:#EBEBEB;}
+.footer ul li{float:left;margin-left:10px;  display: inline-block;font-size: 14px;text-align: center;color:black;}
+.footer_logo{width: 50%;height:40vh;margin:0 auto;}
+.footer p{font-size: 16px;display: inline-block;text-align: center;margin-left:19%;margin-top:80px;}
 
 
