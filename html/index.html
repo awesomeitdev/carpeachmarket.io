@@ -1,348 +1,415 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
+
 <head>
-<meta charset="utf-8">
-<title>carpeachmarket 카피치</title>
- <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>보이스 카커머스 서비스, CARPEACH</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- //favicon -->
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- //font -->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./vendor/bootstrap/bootstrap-grid.min.css">
+    <!-- //bootstrap -->
+
+    <!-- slick -->
+    <link rel="stylesheet" href="./vendor/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/slick/slick-theme.css">
+    <script type="text/javascript" src="./vendor/slick/slick.js"></script>
+    <!-- //slick -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- //aos -->
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-	<script>
-		document.getElementById('vid').play();
-	</script>
+
 <body>
-	
-<div id="section">	
-	
-<div id="first">
-	<div class="top_main">
-<div id="main">
-<div id="logo"><img class="logoimage"
-     src="carpeach_logo.png" alt="logo"></div><!--logo-->
-	
-	
-<div class="background">
-<img src="carpeach_background.png">
-	
-	</div><!--backgroound-->	
-	<div class="tit">
-	
-	<text><h3><b>카피치로</b> 내 차를 '초개인화' 하세요.</h3>
-		<span>가장 쉬운 커뮤니케이션 도구인 말을 통해<br>
-		자신의 자동차를 관리할 수 있는<b>보이스 카 커머스 서비스 입니다.</b>
-		</span></text>
-	
-	</div><!--tit-->
-	
-	
-<div class="video">
-<video autoplay muted controls width id="vid" loop="">
+    <header>
+        <div class="header__conts">
+            <a href="/"><img src="./images/logo.png" alt="CARPEACH"></a>
+            <div class="bg--mobile mb-only"></div>
+            <nav class="header__nav--gnb">
+                <ul>
+                    <li><button data-target="section02">서비스 소개</button></li>
+                    <li><button data-target="section05__ul">대화 모델</button></li>
+                    <li><button data-target="section06">후기</button></li>
+                    <li><a href="https://blog.naver.com/carpeachmarket" target="_blank">공식 블로그</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="btn--hamburger mb-only" type="button" name="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="conts">
+        <section class="section01 t-c">
+            <div class="section01__slider">
+                <div class="slide slide01">
+                    <div class="inner">
+                        <div class="slide__text">
+                            <h2>내 차에 '카피치'가 연결됐다.</h2>
+                            <p>
+                                가장 쉬운 커뮤니케이션 도구인 ‘말’을 통해<br class="pc-only"/>
+                                자신의 차를 자동 관리할 수 있는 ‘보이스 카커머스’ 서비스입니다.
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.awesomeit.carpeach" target="_blank">앱 다운로드</a>
+                        </div>
+                        <div class="slide__img">
+                            <img src="./images/mobile_video_Background.png" alt="">
+                            <video autoplay muted loop playsinline>
+                                <!-- 소리 필요하시면 muted(음소거) 지우시면 됩니다 -->
+                                <source src="./carpeach.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section02 section--common t-c ">
+            <div class="inner">
+                <p class="p--common">
+                    주행부터 소모품 관리까지 내 차를 위한 AI 매니지먼트
+                    <strong>시동을 켜는 순간 카피치가 맞춤 정보를 알려줘요</strong>
+                </p>
+                <ul class="section02__ul row">
+                    <li class="col-12 col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="">
+                        <div>
+                            <h3>세차</h3>
+                            <p>
+                                이번 주는 세차하기 좋아요.<br />
+                                방문 손세차를 이용해 볼까요?
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+                        <div>
+                            <h3>주차</h3>
+                            <p>
+                                출차하실래요?<br />
+                                주차비를 정산할까요?
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+                        <div>
+                            <h3>소모품</h3>
+                            <p>
+                                와이퍼 교체 주기가 되었어요.<br />
+                                바로 구매할까요?</p>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
+                        <div>
+                            <h3>혜택</h3>
+                            <p>
+                                인근 정비소에서 워셔액<br />
+                                무료 충전 이벤트가 있어요.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section03 section--common t-c">
+            <div class="inner">
+                <h2 data-aos="fade-up">내 차를 관리하는 가장 스마트한 방법</h2>
+                <p data-aos="fade-up" data-aos-delay="400">
+                    “저렴한 주유소 길 안내해줘”<br />
+                    “지금 충전 가능한 충전소 찾아줘”
+                </p>
+            </div>
+        </section>
+        <section class="section04 section--common">
+            <div class="inner">
+                <p class="p--common t-c">
+                    마이카 데이터 기반의 맞춤 큐레이션
+                    <strong>나와 내 차 정보를 통해 최적의 선택을 도와줘요</strong>
+                </p>
+                <ul class="section04__ul row align-items-stretch">
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>주유</h3>
+                            <p>
+                                <strong>
+                                    주위 최저가 주유소가<br />
+                                    얼마 저렴한지 계산해서 알려줘요.
+                                </strong>
+                                OO주유소 가솔린 가격은 1609원입니다.<br class="pc-only" />
+                                경기 기준 36.5원 저렴합니다.
+                            </p>
+                            <img src="./images/icon_gasstation.png" alt="icon ">
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>세차</h3>
+                            <p>
+                                <strong>
+                                    주간 날씨 데이터를 분석하여<br />
+                                    세차 정보를 알려줘요.
+                                </strong>
+                                오늘 날씨만 보고 세차했는데<br class="pc-only" />
+                                왜 내가 세차만 하면 비가 오는 거야!
+                            </p>
+                            <img src="./images/icon_cleancar.png" alt="icon">
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>주차</h3>
+                            <p>
+                                <strong>
+                                    도착지 주차장 검색 시 파트너<br />
+                                    사의 주차 서비스 이용권을 제공해요.
+                                </strong>
+                                주위에 1시간 무료 주차 기회가 있습니다.<br class="pc-only" />
+                                이용해 볼까요?
+                            </p>
+                            <img src="./images/icon_parking.png" alt="icon">
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>소모품</h3>
+                            <p>
+                                <strong>
+                                    내 차 이용자가 가장 선호하는<br />
+                                    소모품을 교체 시기에 맞춰 추천해줘요.
+                                </strong>
+                                와이퍼 교체 기간이 되었어요.<br class="pc-only" />
+                                우리 회원들은 ooo 제품을 선호합니다.
+                            </p>
+                            <img src="./images/icon_car_part.png" alt="icon">
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>고장예방</h3>
+                            <p>
+                                <strong>
+                                    오늘 습관을 분석하여<br />
+                                    예방 정보를 제공해요.
+                                </strong>
+                                장기간 주행하지 않으면<br class="pc-only" />
+                                배터리가 방전될 수 있어요.
+                            </p>
+                            <img src="./images/icon_search.png" alt="icon">
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                        <div>
+                            <h3>아르바이트<sub>(예정)</sub></h3>
+                            <p>
+                                <strong>
+                                    내 차를 등록하면<br />
+                                    맞춤 아르바이트를 연결해줘요.
+                                </strong>
+                                서울지역 SUV 자동차 회원을 대상으로<br class="pc-only" />
+                                옥외 광고 지원자를 모집 중입니다.
+                            </p>
+                            <img src="./images/icon_parttime.png" alt="icon">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section05 t-c">
+            <div class="inner">
+                <ul class="section05__ul">
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-left">“내 차 정보 알려줘”</span>
+                                <img src="./images/women_01.png" alt="profile">
+                            </h3>
+                            <p>
+                                내 차의 모델명 · 연비 · 연료 · 타이어 사이즈<br class="pc-only" />
+                                · 엔진오일 · 와이퍼 사이즈까지 한 눈에 볼 수 있습니다.
+                            </p>
+                        </div>
+                        <img src="./images/car_01.png" alt="">
+                    </li>
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-right">“주유소로 안내해줘”</span>
+                                <img src="./images/men_02.png" alt="profile">
+                            </h3>
+                            <p>
+                                내 위치를 기준으로 가까운 주유소 ·저렴한 주유소 <br class="pc-only" />
+                                자주 가는 주유소를 정보를 내비게이션과 연동합니다.
+                            </p>
+                        </div>
+                        <img src="./images/car_02.png" alt="">
+                    </li>
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-left">"세차 할까?"</span>
+                                <img src="./images/women_02.png" alt="profile">
+                            </h3>
+                            <p>
+                                주간 날씨를 분석하여 세차하기 좋은 날을 알려줘요.
+                            </p>
+                        </div>
+                        <img src="./images/car_03.png" alt="">
+                    </li>
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-right">“주행거리 알려줘”</span>
+                                <img src="./images/men_03.png" alt="profile">
+                            </h3>
+                            <p>
+                                주행 정보 · 주유 정보 · 주차 위치 정보 · 소모품 교체 <br class="pc-only" />
+                                정보 등 자동 기록 된 정보를 언제든지 확인할 수 있어요.
+                            </p>
+                        </div>
+                        <img src="./images/car_04.png" alt="">
+                    </li>
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-left">“사고났어.”</span>
+                                <img src="./images/men_04.png" alt="profile">
+                            </h3>
+                            <p>
+                                본인이 가입된 보험사 <br class="pc-only" />
+                                긴급출동 서비스로 바로 연결합니다.
+                            </p>
+                        </div>
+                        <img src="./images/car_05.png" alt="">
+                    </li>
+                    <li>
+                        <div class="section05__ul__txtbox">
+                            <h3>
+                                <span data-aos="fade-right">“집으로”</span>
+                                <img src="./images/women_03.png" alt="profile">
+                            </h3>
+                            <p>
+                                차 타기 전 “집으로” ·”회사로” 길안내 요청을 하면 <br class="pc-only" />
+                                내 차 내비게이션과 연동되어 바로 길안내가 시작됩니다. <br class="pc-only" />
+                                (기능 업데이트 예정)
+                            </p>
+                        </div>
+                        <img src="./images/car_06.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section06 t-c">
+            <div class="inner">
+                <p class="p--common" data-aos="fade-up">
+                    베타 테스터 후기
+                    <strong>응원에 힘입어 좋은 서비스로 보답하겠습니다.</strong>
+                </p>
+            </div>
+            <div class="section06__slide-wrap">
+                <div class="section06__slide__cont-wrap">
+                    <img src="./images/men_05.png" alt="profile">
+                    <h3>(서울) 남성 제네시스 G80 42.02km</h3>
+                    <p>
+                        장거리가 잦은 회사원 입니다. <br class="pc-only" />
+                        직장동료가 소개해줘서 카피치를 쓰게 되었는데요 <br class="pc-only" />
+                        기름 충전 및 세차 를 급하게 할때 유용하게 썼는데요 <br class="pc-only" />
+                        카피치와 함께라면 어디든 든든합니다.
+                    </p>
+                </div>
+                <div class="section06__slide__cont-wrap">
+                    <img src="./images/men_06.png" alt="profile">
+                    <h3>(서울) 남성 현대차 산타페TM 38.41km</h3>
+                    <p>
+                        카피치를 쓰고 난 후 삶의 질이 많이 바뀌었습니다. <br class="pc-only" />
+                        웰컴메세지로 날씨및 차에 필요한 정보를 습득하고, <br class="pc-only" />
+                        대처할수 있게 만들거든요 <br class="pc-only" />
+                        카피치는 운전자에게 필수 앱입니다.
+                    </p>
+                </div>
+                <div class="section06__slide__cont-wrap">
+                    <img src="./images/women_05.png" alt="profile">
+                    <h3>(경기) 여성 현대차 아반떼N 10km</h3>
+                    <p>
+                        오래된 차를 처분하고 새차를 구매하게 되었답니다. <br class="pc-only" />
+                        이때 새 차에 대해 모르는 점이 참 많았는데요 <br class="pc-only" />
+                        카피치를 켜서 제차 상세정보 등을 바로 알수잇었답니다. <br class="pc-only" />
+                        카피치는 정말 여러모로 필수인것같아요!
+                    </p>
+                </div>
+                <div class="section06__slide__cont-wrap">
+                    <h3>(서울) 남성 기아차 셀토 50.57km</h3>
+                    <p>
+                        회사와 집이 멀어 어머님 차를 물려받게 되었습니다. <br class="pc-only" />
+                        어머님 차가 오래되다 보니 신경쓰지 못했던 부분들이 <br class="pc-only" />
+                        많더군요. 이럴때 카피치카 차에 필요한 부분을 <br class="pc-only" />
+                        추천해준덕에 많은 도움이 되었답니다.
+                    </p>
+                </div>
+                <div class="section06__slide__cont-wrap">
+                    <img src="./images/women_04.png" alt="profile">
+                    <h3>(경기) 여성 기아차 K5 38.41km</h3>
+                    <p>
+                        출퇴근용으로 새 차 구매한 초보 운전자입니다. <br class="pc-only" />
+                        ‘카피치＇는 친구 소개로 알게 되었는데 <br class="pc-only" />
+                        이젠 운전할 땐 필수가 되었어요. <br class="pc-only" />
+                        나를 너무도 잘 아는 카피치 항상 응원 할께요.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="inner">
+            <img src="./images/awesomeit_logo.png" alt="AWESOMEIT">
+            <ul class="footer__ul--links">
+                <li><a href="#none">서비스 약관</a></li>
+                <li><a href="#none">개인정보취급방침</a></li>
+                <li><a href="#none">위치기반 서비스 약관</a></li>
+                <li><a href="#none">정보오류 신고</a></li>
+                <li><a href="#none">제휴 문의</a></li>
+            </ul>
+            <p>
+                사업자등록번호 : 276-88-01002<br />
+                주소 : 서울특별시 구로구 디지털로 31길 12, 넥스트데이 51호(구로동, 태평양물산)<br />
+                문의 : sales-support@awesomeit.co.kr
+            </p>
+        </div>
+        <button class="btn--top" type="button" name="button">TOP</button>
+    </footer>
 
- 
-
-    <source src="https://awesomeitdev.github.io/carpeachmarket.io/html/media/re_design_0607.mp4"
-            type="video/mp4">
-
-    
-</video>
-	
-
-	</div><!--video-->	
-	
-	
-
-	</div><!--main-->	
-		</div><!--top_main-->
-		</div><!--first-->
-	<div id="second">
-		<div class="second_top">
-	<div class="two">
-	<div class="title_02">	
-	<p><h2><b>내 차를 관리하는</b>가장 스마트한 방법을 알려줘요.</h2><br>
-		주행 정보, 소모품 교환 및 정비내역 등을 자동 기록해보세요.
-		</p>	
-</div><!--title_02-->
-	
-	<div class="back02">
-		<img class="tire"
-	 src="icon_bakcground_car.png" alt="타이어이미지">
-	</div><!--back02-->
-	
-	<div class="box">
-		<div class="box01">
-		
-		</div><!--box01-->
-		
-	 <div class="parent">
-		 
-		 <div class="sun">
-		 <div class="fi"><ul class="one">
-			 <div class="top_one">
-			 <img src="icon_drive.png"><h5>주행/운전</h5></div><!--top_one-->
-			 <p>"어제 얼마나 운전했지?"<br>
-			 "이번달 운행 정보 알려줘"</p>
-			 </ul></div>
-        <div class="second">
-		  <ul class="two">
-			 <div class="top_two">
-			 <img src="icon_repair.png"><h5>차량관리</h5></div><!--top_one-->
-			 <p>"내 차 와이퍼 사이즈 알려줘"<br>
-			 "오늘 타이어 교환 기록해줘"</p>
-			 </ul>
-		 </div><!--second-->
-			 <div class="third">
-		  <ul class="tree">
-			 <div class="top_tred">
-			 <img src="icon_gas.png"><h5>주유</h5></div><!--top_one-->
-			 <p>"내 주유소 가격 알려줘"<br>
-			 "주변에 저렴한 주유소 알려줘"</p>
-			 </ul>
-		 </div><!--third-->
-			 
-			  <div class="fourd">
-		  <ul class="four">
-			 <div class="top_four">
-			 <img src="icon_car_handwash.png"><h5>세차</h5></div><!--top_one-->
-			 <p>"오늘 세차해도 될까?"<br>
-			 "내일 날씨 알려줘"</p>
-			 </ul>
-		 </div><!--fourd-->
-			 
-			 	  <div class="fived">
-		  <ul class="five">
-			 <div class="top_five">
-			 <img src="icon_car.png"><h5>상품추천</h5></div><!--top_one-->
-			 <p>"내 차 엔진오일 추천해줘"<br>
-			 "내 차 타이어 추천해줘"</p>
-			 </ul>
-		 </div><!--fived-->
-			 
-			  <div class="sixed">
-		  <ul class="six">
-			 <div class="top_six">
-			 <img src="icon_parking.png"><h5>주차</h5></div><!--top_one-->
-			 <p>"지하 2층 F 주차 기록해줘"<br>
-			 "내 차 어디에 주차했지?"</p>
-			 </ul>
-		 </div><!--sixed-->
-       </div><!--sun-->
-    </div><!--parent-->	
-		
-		
-	
-	</div><!--box-->
-	</div><!--two-->
-		</div><!--second_top-->
-	</div><!--second-->
-	<div class="sam">
-		
-		<div class="three_main">
-		<div class="three_top">
-		<div class="sam_title">
-		<p><h3>시동을 켜면 자동으로 운행 컨디션을 알려줘요.</h3>
-			<span>차종, 정비, 날씨 등을 분석하여<br>
-				오늘 운전자에게 필요한 맞춤 정보를 알려줍니다.
-			</span>
-			</p>
-			<div class="sam_image"><img src="icon_bakcground_alarm.png"></div>
-		
-		</div><!--sam_title-->
-		</div><!--hree_top-->
-	</div><!--three_main-->
-	<div class="box3">
-	 <div class="top_seven">
-			<img src="images/01.png">
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-	
-	
-		<div class="mycar">
-		
-		<div class="mycar_main">
-		
-	</div><!--three_main-->
-	<div class="box4">
-	 <div class="mycar_seven">
-			<img src="images/02.png">
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-	
-	<div class="mygas">
-		
-		<div class="mygas_main">
-		
-	</div><!--three_main-->
-	<div class="box5">
-	 <div class="mygas_seven">
-			<img src="images/03.png">
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-		<div class="myweather">
-		
-		<div class="myweather_main">
-		
-	</div><!--three_main-->
-	<div class="box6">
-	 <div class="myweather_seven">
-			<img src="images/04.png">
-		
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-			<div class="myride">
-		
-		<div class="myride_main">
-		
-	</div><!--three_main-->
-	<div class="box7">
-	 <div class="myride_seven">
-			<img src="images/05.png">
-		
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-				<div class="myfilter">
-		
-		<div class="myfilter_main">
-		
-	</div><!--three_main-->
-	<div class="box8">
-	 <div class="myfilter_seven">
-			<img src="images/06.png">
-		
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-	
-	
-	
-					<div class="myaccident">
-		
-		<div class="myaccident_main">
-		
-	</div><!--three_main-->
-	<div class="box9">
-	 <div class="myaccident_seven">
-			<img src="images/07.png">
-		
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-	<div class="myhome">
-		
-		<div class="myhome_main">
-		
-	</div><!--three_main-->
-	<div class="box10">
-	 <div class="myhome_seven">
-			<img src="images/08.png">
-		
-				</div><!--top_one-->
-		
-		
-		
-			 
-			
-		
-		</div><!--box3-->
-	</div><!--box3-->
-	
-	
-	<div class="bbutton">
-		<div class="bt">
-	<img src="images/button_01.png">
-		</div>
-	</div>
-	
-	
-	<div class="footer">
-		<div class="footer_logo">
-			<img src="carpeach_logo.png">
-		  <div class="text">
-			<ul>
-			<a href=""><li>서비스 이용약관</li></a>
-				<li>|</li>
-			<a href=""><li>개인정보취급방침</li></a>
-				<li>|</li>	
-							<a href=""><li>위치기반서비스이용약관</li></a>
-				<li>|</li>
-							<a href=""><li>제휴문의</li></a>
-				
-			
-			
-			</ul>
-				
-			  </div><!--text-->
-			
-			<p>어썸잇. 서울 구로구 디지털로31길 12(구로동 태평양물산).넥스트데이 51호<br>
-
-Copyright ⓒAWESOMEIT All Rights Reserved.</p>
-			
-			</div><!--footerlogo-->
-		
-	</div><!--footer-->
-	</div><!--section-->
-	
-	
-	
-	
-	
+    <script type="text/javascript" src="./js/event.js"></script>
 </body>
+
 </html>
