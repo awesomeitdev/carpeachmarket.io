@@ -39,7 +39,7 @@ $(function() {
     });
 
     $('.section06__slide-wrap').slick({
-        autoplay: true,
+        //autoplay: true,
         autoplaySpeed: 3000,
         centerMode: true,
         centerPadding: '125px',
@@ -76,7 +76,7 @@ $(function() {
         } else {
             activeNum += 1;
         }
-    }, 400);
+    }, 1000);
 
     $('.header__nav--gnb button').on('click', function() {
         var selectedTarget = $(this).attr('data-target');
