@@ -1,5 +1,5 @@
 {
-  "recent_app_update_version" : 1000,
+  "recent_app_update_version" : 0,
   "is_server_updating" : "Y",
   "app_update_comment" : "앱 업데이트 하세염",
   "app_update_path" : "https://play.google.com/store/apps/details?id=com.awesomeit.carpeach",
